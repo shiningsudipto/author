@@ -37,17 +37,19 @@ html {
 
 /* carousel */
 
+.carousel-control-next-icon {
+    background-image: url(./banners/gatterthen.png) !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(./banners/lessthen.png);
+}
+
 .carousel-caption {
     transform: translateY(-50%);
     bottom: initial;
     top: 50%;
 
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    background-color: black;
-    border-radius: 50%;
 }
 
 .cl-h {
