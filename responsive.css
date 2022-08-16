@@ -1,0 +1,17 @@
+@media screen and (max-width: 992px) {
+    #navbarNav ul li a {
+        padding: 10px 0;
+    }
+
+    .cl-h {
+        font-size: 3rem !important;
+    }
+
+    .cl-t {
+        margin-top: 1rem !important;
+    }
+
+    .cl-btn {
+        margin-top: 1rem !important;
+    }
+}
