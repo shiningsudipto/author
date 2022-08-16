@@ -6,6 +6,8 @@ html {
     margin: 0 auto;
 }
 
+/* Navbar */
+
 /* .container {
     margin: 0 8.437rem !important;
     text-align: center;
@@ -14,13 +16,6 @@ html {
 .navbar {
     padding: 0 !important;
     margin: 0 !important;
-}
-
-.button {
-    background-color: #49cbcd;
-    color: white;
-    padding: 14px 55px;
-    border: none;
 }
 
 #navbarNav ul li a:hover {
@@ -39,6 +34,8 @@ html {
     color: #49cbcd;
     background: #f8f9fb;
 }
+
+/* carousel */
 
 .carousel-caption {
     transform: translateY(-50%);
@@ -69,6 +66,8 @@ html {
     margin-top: 50px;
 }
 
+/* portfolio */
+
 .grid-container {
     display: grid;
     gap: 30px;
@@ -78,6 +77,8 @@ html {
 .grid-item {
     text-align: center;
 }
+
+/* pricing */
 
 tbody tr td,
 th {
@@ -90,6 +91,8 @@ td button {
     border: none;
 }
 
+/* client say */
+
 .slideshow-container {
     position: relative;
 }
@@ -101,7 +104,6 @@ td button {
     text-align: center;
 }
 
-/* Next & previous buttons */
 .prev,
 .next {
     cursor: pointer;
@@ -117,24 +119,23 @@ td button {
     user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
     position: absolute;
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
 }
 
-/* Add a blue color to the author */
 .author {
     color: rgb(153, 153, 153);
 }
+
+/* contact us */
 
 .contact {
     background-image: url(./banners/c-banner.jpg);
@@ -143,12 +144,19 @@ td button {
     background-size: cover;
 }
 
+.cu {
+    padding-bottom: 100px
+}
+
 .c-p {
     margin: 0 !important;
     padding: 0 !important;
     color: #a090bc !important;
 }
 
-.cu {
-    padding-bottom: 100px
+.button {
+    background-color: #49cbcd;
+    color: white;
+    padding: 14px 55px;
+    border: none;
 }
