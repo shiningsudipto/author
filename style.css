@@ -53,6 +53,22 @@ html {
     border-radius: 50%;
 }
 
+.cl-h {
+    font-size: 4rem;
+}
+
+.cl-t {
+    font-size: 1.437rem;
+    margin-top: 2.5rem;
+}
+
+.cl-btn {
+    border-color: white !important;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
 .grid-container {
     display: grid;
     gap: 30px;
@@ -131,4 +147,8 @@ td button {
     margin: 0 !important;
     padding: 0 !important;
     color: #a090bc !important;
+}
+
+.cu {
+    padding-bottom: 100px
 }
