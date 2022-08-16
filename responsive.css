@@ -43,6 +43,7 @@
 @media screen and (max-width:576px) {
     .cl-h {
         font-size: 20px !important;
+        font-weight: bold;
         margin: 0 !important;
         padding: 0 !important;
     }
@@ -51,6 +52,7 @@
         font-size: 16px !important;
         margin: 0 !important;
         padding: 0 !important;
+        display: none;
     }
 
     .cl-btn {
@@ -58,20 +60,20 @@
         font-size: 16px;
         padding: 3px 12px;
         margin: 0px !important;
-        margin-top: 5px !important;
+        margin-top: 40px !important;
     }
 
     .carousel-caption {
         transform: translateY(-45%);
         bottom: initial;
-        top: 40%;
+        top: 45%;
 
     }
 
     .grid-container {
         display: grid;
-        gap: 30px;
-        grid-template-rows: auto;
+        gap: 10px;
+        grid-template-columns: auto;
     }
 
     .cu {
